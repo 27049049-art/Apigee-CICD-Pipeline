@@ -4,7 +4,16 @@
     <Request/>
     <Response/>
   </PreFlow>
-  <Flows/>
+  <Flows>
+    <Flow name="IMAGE-INTEGRATION">
+            <Description/>
+            <Request>
+            </Request>
+            <Response>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/apiCall") and (request.verb = "POST")</Condition>
+    </Flow>
+  </Flows>
   <PostFlow name="PostFlow">
     <Request/>
     <Response/>
