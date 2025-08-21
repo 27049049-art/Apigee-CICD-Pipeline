@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Apigee-CICD-Pipeline">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1755767024904</CreatedAt>
+  <LastModifiedAt>1755767024904</LastModifiedAt>
+  <BasePaths>/apigee-cicd-pipeline</BasePaths>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
